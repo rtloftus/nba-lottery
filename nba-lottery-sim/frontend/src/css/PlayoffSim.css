@@ -1,0 +1,20 @@
+.draft-card {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+/* Trigger animation only when .revealed is applied */
+.draft-card.revealed {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,41 @@
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #bbbbbb;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #1d72b8;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #155a8a;
+}
+
+.sticky-button {
+  position: sticky;
+  top: 1rem;
+}
+
+.expected-text {
+  padding: 0.5rem 1rem;
+}
